@@ -1,0 +1,15 @@
+{
+    "name": "zarkasi/basicapi-yii2",
+    "description": "RESTfull API Application Template, Based in Yii2 basic template.",
+    "type": "project",
+    "require": {
+        "php": "7.4"
+    },
+    "authors": [
+        {
+            "name": "Zarkasi Dev",
+            "email": "arfan.zarkasi@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
