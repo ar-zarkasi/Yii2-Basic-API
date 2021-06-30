@@ -1,9 +1,11 @@
 {
     "name": "zarkasi/basicapi-yii2",
     "description": "RESTfull API Application Template, Based in Yii2 basic template.",
+     "keywords": ["yii2", "framework", "basic", "api template","restfull","api"],
     "type": "project",
+    "license": "BSD-3-Clause",
     "require": {
-        "php": "7.4"
+        "php": ">=5.6.0"
     },
     "authors": [
         {
