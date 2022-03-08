@@ -13,5 +13,14 @@
             "email": "arfan.zarkasi@gmail.com"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": [
+            "@installdeep"
+        ],
+        "installdeep": [
+            "cp .env-example .env",
+            "cd core && @php composer install -vv"
+        ]
+    }
 }

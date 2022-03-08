@@ -68,10 +68,10 @@ $config = [
             'rules' => [
                  ''=>'site/index',
                 // Example Version API or else please provide here
-                'v1'=>'site/index',
-                'OPTIONS v1/<controller:[\w\-]+>/<action:[\w\-]+>/<id:[A-Za-z0-9 -_.]+>'=>'site/opsi',
-                'OPTIONS v1/<controller:[\w\-]+>/<action:[\w\-]+>'=>'site/opsi',
-                'OPTIONS v1/<controller:[\w\-]+>'=>'site/opsi',
+                // 'OPTIONS v1/<controller:[\w\-]+>/<action:[\w\-]+>/<id:[A-Za-z0-9 -_.]+>'=>'site/opsi',
+                // 'OPTIONS v1/<controller:[\w\-]+>/<action:[\w\-]+>'=>'site/opsi',
+                // 'OPTIONS v1/<controller:[\w\-]+>'=>'site/opsi',
+                'OPTIONS'=>'site/opsi',
                 'v1/login' => 'v1/auth/login',
                 'v1/logout' => 'v1/auth/logout',
                 [
